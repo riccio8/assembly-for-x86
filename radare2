@@ -1,4 +1,4 @@
-If u want to have te source code of any file .exe or .apk or any other formats, u can do that with radarer2, on Kali Linux is pre installed.
-After u installed radarer2 open a shell, and navigate to the directory with the file that u want to scan, than enter "r2 -w <the name of your file>"
+If u want to have te source code of any file .exe or .apk or any other formats, u can do that with radare2, on Kali Linux is preinstalled.
+After u installed radare2 open a shell, and navigate to the directory with the file that u want to scan, than enter "r2 -w <the name of your file>"
 than press enter and u can se numbers on the first line: 0x000000 or something like that. Than u have to tipe "aaa" for scann the code, u will see a list of strings, they don't mind.    Now, if u type pdf (print decompiler file) u will see the code in assembly, but only the first part. Instead u have to do "afl". With this command u will se all the function in the script, after, u can digit "pdf @name of the finction".
 That's all
